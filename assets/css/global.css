@@ -1,0 +1,44 @@
+.background {
+	background-size: cover;
+	position: fixed;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.cont {
+	background-color: rgba(255, 255, 255, 0.74);
+}
+
+.text-shadow {
+	text-shadow: 1.3px 1.5px 1.5px #5a5a5a;
+}
+
+.slide-enter-active {
+	transition: all .5s;
+}
+
+.slide-leave-active {
+	transition: all .5s;
+}
+
+.slide-enter, .slide-leave-to {
+	transform: translateX(200px);
+	opacity: 0;
+}
+
+.input_bottom {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+	box-shadow: 3px 6px 3px rgba(0, 0, 0, 0.301);
+	font-size: 1.5em;
+	border-top-right-radius: .4em;
+	border-bottom-right-radius: .15em;
+}
+
+.error {
+	border-bottom: 1px solid rgb(224, 0, 0) !important;
+}
