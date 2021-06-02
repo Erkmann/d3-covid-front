@@ -37,6 +37,7 @@
 	font-size: 1.5em;
 	border-top-right-radius: .4em;
 	border-bottom-right-radius: .15em;
+	max-width: 100%;
 }
 
 .error {
