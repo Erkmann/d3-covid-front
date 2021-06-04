@@ -1,16 +1,19 @@
 <template>
   <div class="">
     <div class="row text-center">
-      <h1 class="font-weight-bold text-shadow">
-        Quer prever os casos de COVID para quantos dias?
-      </h1>
+      <div class="col-12">
+        <h1 class="text-shadow text-dark">
+          Prever os casos de COVID para quantos dias?
+        </h1>
+      </div>
     </div>
 
     <form @submit.prevent="submit">
-      <div class="row text-center">
-        <div class="col-6 text-right">
+      <div class="row text-center align-content-center mt-3">
+		  <div class="col-md-3 col-sm-12"></div>
+        <div class="col-md-4 col-sm-12 text-right form-group">
           <input
-            class="input_bottom"
+            class="form-control"
             :class="errorDia ? 'error' : ''"
             id="dias"
             placeholder="Ex: 4"
@@ -18,14 +21,15 @@
             v-model="dias"
           />
         </div>
-        <div class="col-6 text-center text-md-left">
+        <div class="col-md-4 col-sm-12 text-center text-md-left">
           <input type="submit" class="btn btn-primary shadow" value="Prever!" />
         </div>
       </div>
     </form>
 
-    <div v-if="response !== null" class="row mt-md-5 mt-4">
-      <div class="col-md-6 col-sm-12">
+    <div v-if="response !== null" class="row mt-md-4 mt-4">
+		<div class="col-md-2 col-sm-12"></div>
+      <div class="col-sm-12 col-md-8">
         <line-chart :chart-data="response" :options="options"></line-chart>
       </div>
     </div>

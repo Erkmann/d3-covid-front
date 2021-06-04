@@ -1,14 +1,12 @@
-.background {
-	background-size: cover;
-	position: fixed;
-	height: 100%;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+.cont {
+	background-color: rgba(255, 255, 255, 0.85);
 }
 
-.cont {
-	background-color: rgba(255, 255, 255, 0.74);
+body {
+	background-color: #071055;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23071055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2304195f' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23012269' cx='50' cy='100' r='50'/%3E%3Cg fill='%23002b72' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300347c' cx='50' cy='200' r='50'/%3E%3Cg fill='%23003d85' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300468f' cx='50' cy='300' r='50'/%3E%3Cg fill='%23004f98' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%230058a1' cx='50' cy='400' r='50'/%3E%3Cg fill='%230062aa' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006bb2' cx='50' cy='500' r='50'/%3E%3Cg fill='%230075bb' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23007ec3' cx='50' cy='600' r='50'/%3E%3Cg fill='%230088cb' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%230092d3' cx='50' cy='700' r='50'/%3E%3Cg fill='%23009cdb' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300a6e2' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300b0ea' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2318baf1' cx='50' cy='900' r='50'/%3E%3Cg fill='%2328c4f8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2335ceff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: contain;
 }
 
 .text-shadow {
